@@ -132,4 +132,11 @@ if __name__ == '__main__':
             t += nice_print(i.data)
         return render(t)
 
+    @app.route("/cont/<key>/")
+    def con(key):
+        global contacts
+        contacts.append(key)
+        contacts = dup(contacts)
+        return render("Added!")
+
     app.run(threaded=True)
