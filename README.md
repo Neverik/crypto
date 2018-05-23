@@ -1,5 +1,5 @@
 # CRYPTO
-Boilerplate code for blockchain cryptocurrencies written in python. In active development. Try to hack it!!!!
+Boilerplate code for blockchain cryptocurrencies written in python. In inactive development. Try to hack it!!!!
 
 ## Quickstart guide
 * Install the dependencies via pip (pip install flask, pip install rsa);
